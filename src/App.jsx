@@ -9,7 +9,7 @@ import ProtectedRoute from './components/ProtectedRoute'; // Import our new comp
 export default function App() {
   return (
     <div className="bg-gray-50 min-h-screen">
-      <Header title="EcoGamify" />
+      <Header title="EcoMinds" />
       <main>
         <Routes>
           {/* Public Route: Login Page */}
