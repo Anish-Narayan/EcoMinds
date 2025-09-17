@@ -17,15 +17,15 @@ export const quests = [
 ];
 
 export const students = [
-  { id: 1, name: 'Aarav Sharma' },
-  { id: 2, name: 'Priya Patel' },
-  { id: 3, name: 'Rohan Kumar' },
+  { id: 1, name: 'Sowbagya' },
+  { id: 2, name: 'Sumetha' },
+  { id: 3, name: 'Sashruthi' },
 ];
 
 // Mock data for student progress
 export const studentProgress = [
-  { studentId: 1, courseId: 1, completedQuestIds: [101, 103] }, // Aarav completed 2/3 quests in course 1
-  { studentId: 2, courseId: 1, completedQuestIds: [101, 102, 103] }, // Priya completed 3/3 quests in course 1
-  { studentId: 3, courseId: 1, completedQuestIds: [101] }, // Rohan completed 1/3 quests in course 1
-  { studentId: 1, courseId: 2, completedQuestIds: [201] }, // Aarav completed 1/2 quests in course 2
+  { studentId: 1, courseId: 1, completedQuestIds: [101, 103] }, // Sowbagya completed 2/3 quests in course 1
+  { studentId: 2, courseId: 1, completedQuestIds: [101, 102, 103] }, // Sumetha completed 3/3 quests in course 1
+  { studentId: 3, courseId: 1, completedQuestIds: [101] }, // Sashruthi completed 1/3 quests in course 1
+  { studentId: 1, courseId: 2, completedQuestIds: [201] }, // Sowbagya completed 1/2 quests in course 2
 ];
